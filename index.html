@@ -1,0 +1,392 @@
+<html lang="en">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <title>
+    Bahaly Health Innovations
+  </title>
+  <link crossorigin="anonymous" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" rel="stylesheet"/>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&amp;display=swap" rel="stylesheet"/>
+  <style>
+   body {
+            font-family: 'Roboto', sans-serif;
+        }
+        .navbar {
+            padding: 1rem 2rem;
+        }
+        .navbar-brand {
+            font-weight: 700;
+            font-size: 1.5rem;
+        }
+        .navbar-nav .nav-link {
+            margin-right: 1rem;
+            font-weight: 500;
+        }
+        .btn-appointment {
+            background-color: #00b4d8;
+            color: rgb(248, 247, 255);
+            font-weight: 500;
+        }
+        .hero-section {
+            background-color: #f0f8ff;
+            padding: 4rem 2rem;
+            text-align: left;
+        }
+        .hero-section h1 {
+            font-size: 2.5rem;
+            font-weight: 700;
+        }
+        .hero-section p {
+            font-size: 1rem;
+            margin: 1rem 0;
+        }
+        .btn-find-doctor {
+            background-color: #00b4d8;
+            color: rgb(255, 255, 255);
+            font-weight: 500;
+        }
+        .info-cards {
+            padding: 2rem 2rem;
+            text-align: center;
+        }
+        .info-card {
+            background-color: #e0f7fa;
+            padding: 2rem;
+            border-radius: 10px;
+            margin: 1rem;
+        }
+        .info-card h5 {
+            font-weight: 700;
+            margin-top: 1rem;
+        }
+        .info-card p {
+            font-size: 0.9rem;
+        }
+        .services-section {
+            padding: 4rem 2rem;
+            text-align: center;
+        }
+        .services-section h2 {
+            font-size: 2rem;
+            font-weight: 700;
+        }
+        .service-card {
+            text-align: left;
+            margin-top: 2rem;
+        }
+        .service-card h3 {
+            font-size: 1.5rem;
+            font-weight: 700;
+        }
+        .service-card p {
+            font-size: 1rem;
+            margin: 1rem 0;
+        }
+        .btn-learn-more {
+            background-color: #00b4d8;
+            color: white;
+            font-weight: 500;
+        }
+        .speciality-section {
+            background-color: #e0f7fa;
+            padding: 4rem 2rem;
+            text-align: center;
+        }
+        .speciality-section h2 {
+            font-size: 2rem;
+            font-weight: 700;
+        }
+        .speciality-card {
+            background-color: #00b4d8;
+            color: white;
+            padding: 2rem;
+            border-radius: 10px;
+            margin: 2rem 0;
+        }
+        .speciality-card h3 {
+            font-size: 1.5rem;
+            font-weight: 700;
+        }
+        .btn-learn-more {
+            background-color: #00b4d8;
+            color: white;
+            font-weight: 500;
+        }
+        .appointment-section {
+            padding: 4rem 2rem;
+            text-align: center;
+        }
+        .appointment-section h2 {
+            font-size: 2rem;
+            font-weight: 700;
+        }
+        .appointment-card {
+            text-align: left;
+            margin-top: 2rem;
+        }
+        .appointment-card h3 {
+            font-size: 1.5rem;
+            font-weight: 700;
+        }
+        .appointment-card p {
+            font-size: 1rem;
+            margin: 1rem 0;
+        }
+        .btn-schedules {
+            background-color: #00b4d8;
+            color: white;
+            font-weight: 500;
+        }
+        .doctors-section {
+            background-color: #e0f7fa;
+            padding: 4rem 2rem;
+            text-align: center;
+        }
+        .doctors-section h2 {
+            font-size: 2rem;
+            font-weight: 700;
+        }
+        .doctor-card {
+            background-color: white;
+            padding: 2rem;
+            border-radius: 10px;
+            margin: 1rem;
+            text-align: center;
+        }
+        .doctor-card h5 {
+            font-weight: 700;
+            margin-top: 1rem;
+        }
+        .btn-see-all {
+            background-color: #00b4d8;
+            color: white;
+            font-weight: 500;
+        }
+  </style>
+ </head>
+ <body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+   <a class="navbar-brand" href="#">
+    Bahalymed
+   </a>
+   <button aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-bs-target="#navbarNav" data-bs-toggle="collapse" type="button">
+    <span class="navbar-toggler-icon">
+    </span>
+   </button>
+   <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav ms-auto">
+     <li class="nav-item">
+      <a class="nav-link" href="#">
+       About
+      </a>
+     </li>
+     <li class="nav-item">
+      <a class="nav-link" href="#">
+       Services
+      </a>
+     </li>
+     <li class="nav-item">
+      <a class="nav-link" href="#">
+       Doctors
+      </a>
+     </li>
+     <li class="nav-item">
+      <a class="nav-link" href="#">
+       Blog
+      </a>
+     </li>
+     <li class="nav-item">
+      <a class="nav-link" href="#">
+       Contact
+      </a>
+     </li>
+     <li class="nav-item">
+      <a class="btn btn-appointment" href="#">
+       Appointment
+      </a>
+     </li>
+    </ul>
+   </div>
+  </nav>
+  <section class="hero-section">
+   <div class="container">
+    <div class="row align-items-center">
+     <div class="col-md-6">
+      <h1>
+       Bahaly Health Innovations
+      </h1>
+      <p>
+       Menghadirkan solusi kesehatan inovatif untuk meningkatkan kualitas hidup anda
+      </p>
+      <a class="btn btn-find-doctor" href="#">
+       Find Doctors
+      </a>
+     </div>
+     <div class="col-md-6 text-center">
+      <img alt="Two doctors illustration" class="img-fluid" height="400" src="https://storage.googleapis.com/a1aa/image/bAWlnh18im6kPNNwInglEckm4LJwgoeDBSncogtKXFkbpr0JA.jpg" width="400"/>
+     </div>
+    </div>
+   </div>
+  </section>
+  <section class="info-cards">
+   <div class="container">
+    <div class="row">
+     <div class="col-md-3">
+      <div class="info-card">
+       <i class="fas fa-clock fa-2x">
+       </i>
+       <h5>
+        Opening Hours
+       </h5>
+       <p>
+        Mon - Fri: 8am - 8pm
+        <br/>
+        Sat - Sun: 9am - 5pm
+       </p>
+      </div>
+     </div>
+     <div class="col-md-3">
+      <div class="info-card">
+       <i class="fas fa-calendar-alt fa-2x">
+       </i>
+       <h5>
+        Appointment
+       </h5>
+       <p>
+        Request an appointment online
+       </p>
+      </div>
+     </div>
+     <div class="col-md-3">
+      <div class="info-card">
+       <i class="fas fa-user-md fa-2x">
+       </i>
+       <h5>
+        Find Doctors
+       </h5>
+       <p>
+        Search for a doctor by specialty
+       </p>
+      </div>
+     </div>
+     <div class="col-md-3">
+      <div class="info-card">
+       <i class="fas fa-map-marker-alt fa-2x">
+       </i>
+       <h5>
+        Find Locations
+       </h5>
+       <p>
+        Locate a clinic near you
+       </p>
+      </div>
+     </div>
+    </div>
+   </div>
+  </section>
+  <section class="services-section">
+   <div class="container">
+    <h2>
+     Our Medical Services
+    </h2>
+    <div class="row align-items-center">
+     <div class="col-md-6 text-center">
+      <img alt="Doctor with medical icons" class="img-fluid" height="400" src="https://storage.googleapis.com/a1aa/image/OXUKVdX7nWI0B15fTdNgrARvgV3dV0WRGol23MGSbvveSXpTA.jpg" width="400"/>
+     </div>
+     <div class="col-md-6">
+      <div class="service-card">
+       <h3>
+        General Health Check-up
+       </h3>
+       <p>
+        Kami menyediakan layanan pemeriksaan kesehatan umum yang komprehensif untuk memastikan kondisi kesehatan Anda tetap optimal
+       </p>
+       <a class="btn btn-learn-more" href="#">
+        Learn more
+       </a>
+      </div>
+     </div>
+    </div>
+   </div>
+  </section>
+  <section class="speciality-section">
+   <div class="container">
+    <h2>
+     Our Speciality
+    </h2>
+    <div class="speciality-card">
+     <h3>
+      Online Appointment
+     </h3>
+     <p>
+        Spesialisasi Kami di Bahalymed tidak hanya menyediakan perawatan kesehatan terbaik dengan dokter spesialis yang berpengalaman, tetapi juga kemudahan dalam mengakses layanan kami. Dengan fitur Janji Temu Online, Anda dapat memesan konsultasi atau perawatan kapan saja dan di mana saja, tanpa harus menunggu lama
+     </p>
+     <a class="btn btn-learn-more" href="#">
+      Learn more
+     </a>
+    </div>
+   </div>
+  </section>
+  <section class="appointment-section">
+   <div class="container">
+    <h2>
+     Appointment Schedules
+    </h2>
+    <div class="row align-items-center">
+     <div class="col-md-6 text-center">
+      <img alt="Calendar illustration" class="img-fluid" height="400" src="https://storage.googleapis.com/a1aa/image/Dpa1BQuT5wpJOd4SzPbfjy6YmRd7DMVNH8iO9W46ZnJbpr0JA.jpg" width="400"/>
+     </div>
+     <div class="col-md-6">
+      <div class="appointment-card">
+       <h3>
+        Appointment Schedules
+       </h3>
+       <p>
+        Atur dan lihat jadwal janji tamu anda dengan mudah melalui sistem perjadwalan Bahalymed yang praktis
+       </p>
+       <a class="btn btn-schedules" href="#">
+        Schedules
+       </a>
+      </div>
+     </div>
+    </div>
+   </div>
+  </section>
+  <section class="doctors-section">
+   <div class="container">
+    <h2>
+     Our Doctors
+    </h2>
+    <div class="row">
+     <div class="col-md-4">
+      <div class="doctor-card">
+       <img alt="Doctor Mamman Bo" class="img-fluid rounded-circle" height="200" src="https://storage.googleapis.com/a1aa/image/Op0Qw5uYQ85UHtI277FGTLsi8ajvRe5qRozW5IakaE2cpr0JA.jpg" width="200"/>
+       <h5>
+        Mamman Bo
+       </h5>
+      </div>
+     </div>
+     <div class="col-md-4">
+      <div class="doctor-card">
+       <img alt="Doctor Reda Siana" class="img-fluid rounded-circle" height="200" src="https://storage.googleapis.com/a1aa/image/CnOuLYfMc1RTfUgTEmPFQw1tf5ud54jUoULYMm10CN72luSnA.jpg" width="200"/>
+       <h5>
+        Reda Siana
+       </h5>
+      </div>
+     </div>
+     <div class="col-md-4">
+      <div class="doctor-card">
+       <img alt="Doctor Yaroslav Hawa" class="img-fluid rounded-circle" height="200" src="https://storage.googleapis.com/a1aa/image/tTLmlfvgYSzqFCfBHcDBf6Las0iPgYvpgAfTcA3i9SvoLdlOB.jpg" width="200"/>
+       <h5>
+        Yaroslav Hawa
+       </h5>
+      </div>
+     </div>
+    </div>
+    <a class="btn btn-see-all" href="#">
+     See All
+    </a>
+   </div>
+  </section>
+  <script crossorigin="anonymous" integrity=
